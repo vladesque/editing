@@ -150,46 +150,68 @@
         </ul>
         <img src="SNL1.jpeg" alt="Saturday Night Live studio floor during a live broadcast, overhead lighting rig above camera and audio crew" class="timeline-img">
       </div>
-    </div>
+    </article>
 
-    <div class="timeline-item">
-      <div class="timeline-date">Jul 2022 – Dec 2022</div>
-      <div class="timeline-line"><div class="timeline-dot"></div></div>
-      <div class="timeline-content">
-        <h3>Spotify / Wall Street Journal — The Journal <em style="font-size:14px; color:var(--text3);">Podcast Production Intern</em></h3>
-        <ul class="timeline-bullets">
-          <li>Contributed to daily production of The Journal, one of the top-ranked news podcasts</li>
-          <li>Managed audio edits, clip assembly, and delivery for daily episodes</li>
-          <li>Maintained editorial consistency and speed across a high-volume publishing schedule</li>
-        </ul>
+    <article class="panel photo">
+      <img 
+        src="Vlad.jpg" 
+        alt="Vlad Sedykh" 
+        class="hero-photo"
+      />
+    </article>
+
+  </section>
+
+    <section class="section panel section-panel">
+      <div class="section-title"><h2>Editing Reel</h2></div>
+      <div class="reel">
+        <div class="reel-embed">
+          <iframe src="https://player.vimeo.com/video/1068709745?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Vladislav Sedykh Video Editing Reel"></iframe>
+        </div>
       </div>
-    </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </section>
 
-    <div class="timeline-item">
-      <div class="timeline-date">Jan 2023 – Dec 2023</div>
-      <div class="timeline-line"><div class="timeline-dot"></div></div>
-      <div class="timeline-content">
-        <h3>NBCUniversal — Saturday Night Live <em style="font-size:14px; color:var(--text3);">Production Coordinator</em></h3>
-        <ul class="timeline-bullets">
-          <li>Coordinated production logistics and cross-department communication for SNL's 49th season</li>
-          <li>Managed scheduling, asset tracking, and vendor coordination across weekly live shows</li>
-          <li>Served as primary operational liaison between production, post, talent, and network</li>
-        </ul>
+    <section class="section panel section-panel">
+      <div class="section-title"><h2>Bio</h2></div>
+      <p class="bio">I am Vlad a multimedia producer who can take any of your projects from
+start to finish - whether it’s a corporate explainer, a journalistic podcast, a
+comedy sketch, or a real estate social promo. All it takes is one Vlad to do
+them all.
+
+How come?
+
+While earning my Bachelor’s degree in Film Production and Marketing
+from Brooklyn College, I was already working in production and post-
+production at Saturday Night Live, turning theory into practice in real time.
+
+After college, I joined Spotify, where I worked on a daily news podcast co-
+produced with The Wall Street Journal. I later returned to Saturday Night
+Live before continuing my journey at Homes.com, where I work as a
+multimedia producer. My role spans photo and video editing, repackaging
+footage for new channels, and creating promotional and educational
+content.</p>
+    </section>
+
+
+
+    <section class="section panel section-panel">
+      <div class="section-title"><h2>Career Timeline</h2></div>
+      <div class="grid">
+        <article class="panel card"><h3>Saturday Night Live</h3><p>Production and post-production work that sharpened speed, craft, and editorial instincts.</p></article>
+        <article class="panel card"><h3>Spotify + WSJ Podcast</h3><p>Daily news production workflow experience with journalistic standards and deadlines.</p></article>
+        <article class="panel card"><h3>Homes.com</h3><p>Current multimedia production role spanning editing, repackaging, and campaign content.</p></article>
       </div>
-    </div>
+    </section>
 
-    <div class="timeline-item">
-      <div class="timeline-date">Jan 2024 – Mar 2026</div>
-      <div class="timeline-line"><div class="timeline-dot"></div></div>
-      <div class="timeline-content">
-        <h3>CoStar Group — Homes.com <em style="font-size:14px; color:var(--text3);">Video Editor & Producer</em></h3>
-        <ul class="timeline-bullets">
-          <li>Delivered 15+ finished videos monthly across promotional and educational channels</li>
-          <li>Managed 10–15 simultaneous projects through all stages of post-production</li>
-          <li>Oversaw end-to-end post-production from ingest to final delivery</li>
-          <li>Edited and produced branded content optimized for social, web, and marketing</li>
-          <li>Repackaged long-form footage into platform-ready cuts across multiple channels</li>
-        </ul>
+    <section class="section">
+      <div class="section-title"><h2>Explore Work</h2></div>
+      <div class="grid">
+        <a class="panel card" href="ai-video-editing.html"><h3>AI Video Editing</h3><p>Transcript-driven workflows, rapid rough cuts, and polished finishing pipelines.</p></a>
+        <a class="panel card" href="homes-com.html"><h3>Homes.com</h3><p>Promotional and educational multimedia production across channels.</p></a>
+        <a class="panel card" href="real-estate.html"><h3>Real Estate</h3><p>Property videos, listing launches, and real estate social promos.</p></a>
+        <a class="panel card" href="social-media.html"><h3>Social Media Videos</h3><p>Platform-native cuts for reach, retention, and campaign velocity.</p></a>
+        <a class="panel card" href="contact.html"><h3>Contact</h3><p>Book your next video project, campaign, or post-production sprint.</p></a>
       </div>
     </div>
 
@@ -308,15 +330,9 @@
 
   document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => observer.observe(el));
 
-  const pulseObserver = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      e.target.classList.toggle('pulsing', e.isIntersecting);
-    });
-  }, { threshold: 0.25 });
-  document.querySelectorAll('.timeline-dot').forEach(el => pulseObserver.observe(el));
-</script>
-<script src="cursor.js" defer></script>
-<script src="transitions.js" defer></script>
+    <footer>Proudly vibecoded by Vlad Sedykh © 2026</footer>
+  </main>
 
+  
 </body>
 </html>
